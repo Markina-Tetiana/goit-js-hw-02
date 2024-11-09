@@ -1,7 +1,7 @@
 function formatMessage(message, maxLength) {
-  if (message.lengh <= maxLength) {
+  if (message.length <= maxLength) {
     return message;
-  } else message.lengh > maxLength;
+  } else message.length > maxLength;
   return message.slice(0, maxLength) + '…';
 }
 
